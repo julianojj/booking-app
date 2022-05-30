@@ -13,8 +13,6 @@ O senário é apenas de exemplo, em um grande sistema a complexidade é maior, t
 
 No teste, utilizamos a biblioteca Jest, conseguimos abrangir 2 tipos de testes contidos dentro do TDD (unit e integration)
 
-O testes seguirar 100% de cobertura utilizando o --converage
-
 ![https://github.com/julianojj/booking-app/blob/main/coverage.png](coverage.png)
 
 ## Scripts SQLServer
