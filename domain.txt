@@ -1,0 +1,15 @@
+Começaremos a projetar um serviço de reservas, iterar sobre ele e discutir todas as etapas. Vamos começar com alguns requisitos. Precisamos de um quarto, cada quarto tem uma capacidade, um preço e uma lista de reservas com o intervalo de datas em que é reservado. Um hotel tem um endereço, uma cidade, um país e uma lista de instalações como piscina, academia, parques infantis, etc. Um usuário de back-office pode criar novos quartos e gerenciar a disponibilidade de quartos, incluindo o cancelamento da reserva . Um cliente pode reservar quartos e cancelar reservas.
+
+Room
+id
+capacity
+price
+description
+isAvailable
+
+Booking
+id
+roomId
+checkin
+checkout
+guestsTotal
